@@ -3,9 +3,11 @@ $name = $_GET["name"];
 $email = $_GET["email"];
 $nachricht = $_GET["nachricht"];
 
-$file = fopen("data.csv","w");
-if($file)
-{
+$absolute_path = 'D:\\data.csv';
+
+//$file = fopen("data.csv","a");
+$file = fopen($absolute_path, "a");
+if($file) {
 	fputcsv($file, array($name, $email, $nachricht), ";");
 	fclose($file);
 }
