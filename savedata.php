@@ -11,5 +11,5 @@ if($file) {
 	fputcsv($file, array($name, $email, $nachricht), ";");
 	fclose($file);
 }
-header("location:dataform.php");
+header("location:kontakt.php");
 ?>
