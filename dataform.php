@@ -26,7 +26,7 @@ require("header.php");
             <div class="textbox">
                 <form action="savedata.php" method="get">
                     Name:<br><input style="width:20em" name="name" type="text"><br><br>
-                    E-mail Adresse:<br><input style="width:20em" name="email" type="text"><br><br>
+                    E-mail Adresse:<br><input style="width:20em" name="email" type="text" required><br><br>
                     Nachricht:<br><textarea name="nachricht" cols="80" rows="15"></textarea><br><br>
                     <input name="submit" type ="submit" value="abschicken">
                 </form>

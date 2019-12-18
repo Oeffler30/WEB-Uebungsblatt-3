@@ -201,7 +201,7 @@ color:blue;
 
 #footer li {
   display: inline-block;
-  width: 49%;
+  width: 32%;
   text-align: center;
   height: 100%;
 }

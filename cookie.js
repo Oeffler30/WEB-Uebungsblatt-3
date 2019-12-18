@@ -36,7 +36,7 @@
 		}
             
             
-	    var linkText = user.toLowerCase() + ".html"
+	    var linkText = user.toLowerCase() + ".php"
 	    link.setAttribute("href", linkText);
 	    var text = link.href;
 	    var textNode = document.createTextNode(infoText);
