@@ -32,8 +32,10 @@
 		} else if(user == "Datenschutz") {
 			user = "datenschutz";
 		} else if(user == "Impressum") {
-			user = "Impressum";
-		}
+			user = "impressum";
+		} else if(user == "Kontakt") {
+            user = "kontakt";
+        }
             
             
 	    var linkText = user.toLowerCase() + ".php"
