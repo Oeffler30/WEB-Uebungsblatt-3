@@ -24,8 +24,8 @@ require("header.php");
         <div class="content-container">
             <h1>Kontaktformular</h1>
             <div class="textbox">
-                <form action="savedata.php" method="get">
-                    Name:<br><input style="width:20em" name="name" type="text"><br><br>
+                <form action="savedata.php" method="get" onsubmit="javascript:alert('Vielen Dank für Ihre Anfrage. Wir werden uns baldmöglichst damit auseinandersetzen.');">
+                    Name:<br><input style="width:20em" name="name" type="text" required><br><br>
                     E-mail Adresse:<br><input style="width:20em" name="email" type="email" required><br><br>
                     Nachricht:<br><textarea name="nachricht" cols="80" rows="15"></textarea><br><br>
                     <input name="submit" type ="submit" value="abschicken">
